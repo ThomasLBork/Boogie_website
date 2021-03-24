@@ -109,6 +109,7 @@ section{
     justify-content: center;
     padding: 10px;
     border-radius: 2rem;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
 }
 
 .keypoint_title{
