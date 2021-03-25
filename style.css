@@ -55,7 +55,8 @@ li a.active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-width: 100vmin;
+
 }
 
 /* Logo stuff*/
@@ -63,8 +64,8 @@ li a.active {
     margin: 10px;
     padding: 20px;
     /* Ellipse 15 */
-    width: 130px;
-    height: 130px;
+    width: 50vh;
+    height: 50vh;
     border-radius: 50%;
     background: #FFFFFF;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
@@ -97,8 +98,11 @@ li a.active {
 .keypoint{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
+    margin: 10px 10px 0px 10px;
+    padding: 10px;
+    min-height: 50vh;
 }
 .col{
   flex: 1; 
@@ -114,8 +118,7 @@ li a.active {
 
 .keypoint_Style {
     background-color: #FFFFFF;
-    margin: 10px;
-    padding: 10px;
+    
     border-radius: 2rem;
     border-style: solid;
     border-width: 0px 0px 2px 0px;
