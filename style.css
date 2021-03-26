@@ -77,12 +77,16 @@ li a.active {
 }
 .logo h1{
     font-family: 'Righteous', cursive;
+    font-size: 5vh;
+
 }
 
 .logo p{
     font-family: 'Righteous', cursive;
-    font-size: 10px;
+    font-size: 2vh;
+    /* font-size: 100%; */
     color: #FA4A0C;
+  
 }
 
 
