@@ -65,62 +65,69 @@
 
 }
 
-
 .keypoints{
  display: flex;
  flex-direction: row;
  justify-content: center;
  align-items: center;
 }
-.column{
+.keypoint{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
 }
-.column img,.appshowcase img{
+
+.keypoint img{
+    max-width: 70%;
     padding: 50px;
 }
+
 .appshowcase{
     display: flex;
     flex-direction: row;
     position: relative;
+    max-width: 80%;
 } 
+.appshowcase img{
+    max-width: 60%;
+    padding: 50px;
+}
 
 .logo1{
     position: absolute;
     top: 25px;
-    left: 175px;
+    left: 100px;
 }
 
 .logo2{
     position: absolute;
-    left: 450px;
+    left: 300px;
     top: 25px;
 }
 .logo3{
     position: absolute;
-    right: 560px;
-    top: 150px;
+    left: 300px;
+    top: 130px;
 }
 
 .logo4{
     position: absolute;
-    left: 750px;
+    left: 500px;
     top: 25px;
 }
 
 .logo5{
     position: absolute;
-    left: 1075px;
-    top: 75px;
+    left: 700px;
+    top: 50px;
 }
 .logo6{
     position: absolute;
-    left: 1075px;
-    top: 275px;
+    left: 700px;
+    top: 160px;
 }
+
 .subtitle{
     width: 80%;
 }
@@ -140,7 +147,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
+
 }
 .card h2{
     color: #FA4A0C;
@@ -154,6 +161,9 @@
     text-align: left;
     padding: 100px;
 
+}
+.card img{
+    max-width: 80%;
 }
 .FAQ img{
     width: 100%;
@@ -189,17 +199,19 @@
     padding: 50px;
     width: 531,8px;
 }
+
 .form-row input, .form-row textarea{
-    width: 532px;
+    width: 100%;
     padding: 20px;
     margin: 20px;
 }
+
 .submitbutton{
     border-style: none;
     background: #FA4A0C;
 
     height: 63.009403228759766px;
-    width: 579.8px;
+    width: 120%;
     left: 233.02197265625px;
     top: 3988.379150390625px;
     border-radius: 4px;
@@ -233,4 +245,4 @@
 .info img{
     width: 170px;
     padding-left: 20px;
-}
+} 
