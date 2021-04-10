@@ -1,0 +1,236 @@
+.heroimage{
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/heroimage.png");
+
+    /* Set a specific height */
+    height: 500px;
+    width: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroimage p{
+    color:  #FFFFFF;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+    height: 160px;
+    width: 800px;
+    left: 275px;
+    top: 130px;
+    border-radius: nullpx;
+
+}
+
+
+.stores{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.stores div{
+    margin: 20px;
+    padding: 20px;
+    width: 236px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.stores div{
+    background-color: #FA4A0C;
+    color: white;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+
+.keypoints{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.column img,.appshowcase img{
+    padding: 50px;
+}
+.appshowcase{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+} 
+
+.logo1{
+    position: absolute;
+    top: 25px;
+    left: 175px;
+}
+
+.logo2{
+    position: absolute;
+    left: 450px;
+    top: 25px;
+}
+.logo3{
+    position: absolute;
+    right: 560px;
+    top: 150px;
+}
+
+.logo4{
+    position: absolute;
+    left: 750px;
+    top: 25px;
+}
+
+.logo5{
+    position: absolute;
+    left: 1075px;
+    top: 75px;
+}
+.logo6{
+    position: absolute;
+    left: 1075px;
+    top: 275px;
+}
+.subtitle{
+    width: 80%;
+}
+.subtitle h1{
+    color:#FA4A0C;
+
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    padding-top: 100px;
+}
+.cards, .FAQ{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+.card h2{
+    color: #FA4A0C;
+
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 100px;
+
+}
+.FAQ img{
+    width: 100%;
+    height: 100%;
+}
+
+.subtitle h2{
+    color: #0F001A;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 531,8px;
+}
+.form-row input, .form-row textarea{
+    width: 532px;
+    padding: 20px;
+    margin: 20px;
+}
+.submitbutton{
+    border-style: none;
+    background: #FA4A0C;
+
+    height: 63.009403228759766px;
+    width: 579.8px;
+    left: 233.02197265625px;
+    top: 3988.379150390625px;
+    border-radius: 4px;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.submitbutton:hover{
+    background: #c04316;
+}
+.info p{
+    padding: 20px;
+}
+.info{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 100%;
+    padding-left: 100px;
+}
+.info img{
+    width: 170px;
+    padding-left: 20px;
+}

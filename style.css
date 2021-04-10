@@ -64,7 +64,8 @@ li a.active {
     align-items: center;
     /* justify-content: center; */
     /* min-width: 100vmin;
-    min-height: fill; */ */
+    min-height: fill; */ 
+  
 }
 
 footer{
@@ -81,8 +82,13 @@ footer div{
  margin-left: 50px;
  margin-top: 25px;
  margin-bottom: 25px;
- color: #FA4A0C;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+
 }
-
-
+.socialmedia img{
+  padding: 25px;
+}
   
