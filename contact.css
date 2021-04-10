@@ -82,8 +82,16 @@
     max-width: 70%;
     padding: 50px;
 }
-
 .appshowcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    width: 80%;
+    height: 80%;
+}
+/* .appshowcase{
     display: flex;
     flex-direction: row;
     position: relative;
@@ -126,7 +134,7 @@
     position: absolute;
     left: 700px;
     top: 160px;
-}
+} */
 
 .subtitle{
     width: 80%;
